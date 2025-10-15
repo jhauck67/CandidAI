@@ -1,0 +1,36 @@
+candidai/
+├─ index.html               # SPA main
+├─ /assets/
+│  ├─ /css/
+│  │  ├─ base.scss
+│  │  ├─ layout.scss
+│  │  └─ components.scss
+│  └─ /img/
+├─ /js/
+│  ├─ app.js                # bootstrap minimal (router state)
+│  ├─ store.js              # gestion localStorage / JSON export-import
+│  ├─ jobParser.js          # extraction et normalisation d'annonces
+│  ├─ profileModel.js       # gestion du profil JSON
+│  ├─ matcher.js            # comparaison / scoring
+│  ├─ cvGenerator.js        # préparation des données CV pour affichage/PDF
+│  ├─ coverLetter.js        # template logique lettre
+│  └─ uiComponents.js       # composants réutilisables (modaux, toasts)
+├─ /templates/
+│  ├─ cv-template.html      # structure HTML du CV prête à exporter
+│  └─ cover-template.html   # structure HTML lettre
+└─ /data/
+   └─ samples/              # exemples JSON (profil, offres)
+
+candidai/
+├─ index.html               
+└─ /assets/
+   ├─ /fonts/
+   ├─ /img/
+   ├─ /scripts/
+   │  └─ index.css
+   └─ /styles/
+      ├─ /settings/
+      │  ├─ reset.css
+      │  ├─ variables.css
+      │  └─ global.css
+      └─ style.css

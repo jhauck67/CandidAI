@@ -1,0 +1,355 @@
+{
+    "personalInfo": {
+        "firstName": "Jennifer",
+        "lastName": "Hauck",
+        "address": "Val de Moder, 67350",
+        "phone": "07 50 27 06 10",
+        "email": "jenniferhauck2017@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/jennifer-hauck-b125252a2/",
+        "portfolio": "https://jhauck67.github.io/jhauck67/",
+        "dateOfBirth": "1987-07-24",
+        "drivingLicense": "B"
+    },
+
+    "formations": [
+        {
+            "degree": "Licence Européenne de Conducteur de Train",
+            "year": 2025,
+            "institution": "SNCF / Université partenaire"
+        },
+        {
+            "degree": "Licence Professionnelle Métiers de l'Optique et de la Vision",
+            "year": 2008,
+            "institution": "Université de Strasbourg"
+        },
+        {
+            "degree": "BTS Opticien-Lunetier en Alternance",
+            "year": 2007,
+            "institution": "IFA Strasbourg"
+        }
+    ],
+
+    "skills": {
+        "optique": {
+            "technical": [
+                "Examens de vue et adaptations de verres correcteurs",
+                "Montage et réparation de lunettes",
+                "Utilisation de logiciels métiers optiques",
+                "Gestion des stocks et commandes fournisseurs",
+                "Conseil client et vente personnalisée"
+            ],
+            "soft": [
+                "Sens du service client",
+                "Rigueur et précision technique",
+                "Empathie et écoute",
+                "Gestion du temps et des priorités"
+            ]
+        },
+        "ferroviaire": {
+            "technical": [
+                "Conduite de trains voyageurs (formation FI Autom UV1 à 6)",
+                "Respect strict des procédures de sécurité ferroviaire",
+                "Lecture et interprétation de signalisation",
+                "Utilisation d’équipements embarqués et de communication"
+            ],
+            "soft": [
+                "Responsabilité et vigilance",
+                "Réactivité face aux imprévus",
+                "Gestion du stress et des horaires décalés",
+                "Travail en équipe et coordination"
+            ]
+        },
+        "informatique": {
+            "technical": [
+                "HTML / CSS / JavaScript",
+                "Utilisation de VS Code, GitHub et Figma",
+                "Principes de responsive design",
+                "Notions de SEO, accessibilité et optimisation web",
+                "Pack Office (Word, Excel, PowerPoint, Outlook)"
+            ],
+            "soft": [
+                "Autonomie et curiosité technique",
+                "Apprentissage continu",
+                "Résolution de problèmes",
+                "Capacité à documenter et structurer un projet"
+            ]
+        },
+        "polyvalent": {
+            "technical": [
+                "Gestion commerciale et administrative",
+                "Organisation d’agendas et de plannings",
+                "Suivi de dossiers clients et fournisseurs",
+                "Planification et priorisation des tâches"
+            ],
+            "soft": [
+                "Esprit d’équipe",
+                "Adaptabilité et polyvalence",
+                "Communication claire",
+                "Fiabilité et sens des responsabilités"
+            ]
+        }
+    },
+
+    "languages": [
+    { "language": "Anglais", "level": "scolaire" },
+    { "language": "Allemand", "level": "scolaire" }
+    ],
+
+    "preferences": {
+        "desiredRoles": [
+            { 
+                "category": "opticienne", 
+                "keywords": ["optique", "lunetterie", "vision", "vue", "verres", "clientèle magasin"] 
+            },
+            { 
+                "category": "conductrice de train", 
+                "keywords": ["ferroviaire", "conduite", "train", "sécurité", "SNCF", "voyageurs"] 
+            },
+            { 
+                "category": "polyvalent / logistique", 
+                "keywords": ["manutention", "préparation de commandes", "stock", "organisation", "entrepôt", "livraison"] 
+            },
+            { 
+                "category": "administratif / IT débutant", "keywords": ["bureautique", "secrétariat", "informatique", "données", "saisie", "support", "développement web"] 
+            },
+            { 
+                "category": "autre", 
+                "keywords": [] 
+            }
+        ],
+        "mobility": "Bas-Rhin",
+        "availability": "immédiate"
+    },
+    
+    "experiences": [
+        {
+            "title": "Apprenante Conductrice de Train",
+            "employer": "SNCF Voyageurs",
+            "startDate": "2024-05",
+            "endDate": "2025-04",
+            "duration": "11 mois",
+            "missions": [
+                "Formation FI Autom, UV 1 à 6 sur 7",
+                "Application stricte des procédures de sécurité",
+                "Travail concentré et responsable",
+                "Travail en équipe et respect des protocoles"
+            ],
+            "transferableSkills": {
+                "optique": [
+                    "Rigueur et précision dans le travail",
+                    "Suivi de procédures complexes"
+                ],
+                "ferroviaire": [
+                    "Application stricte des procédures de sécurité",
+                    "Travail en environnement à forte responsabilité",
+                    "Rigueur et concentration"
+                ],
+                "polyvalent": [
+                    "Respect des consignes",
+                    "Organisation et fiabilité",
+                    "Travail en équipe"
+                ],
+                "it": [
+                    "Capacité d’apprentissage rapide",
+                    "Autonomie et rigueur",
+                    "Gestion des tâches selon protocoles"
+                ]
+            },
+            "tags": ["ferroviaire","sécurité","procédures","rigueur"]
+        },
+        {
+            "title": "Opticienne diplômée – Divers CDD",
+            "employer": "Différents points de vente",
+            "startDate": "2022-07",
+            "endDate": "2023-09",
+            "duration": "14 mois",
+            "missions": [
+                "Vente et accompagnement personnalisé",
+                "Atelier optique (montage et adaptation de verres)",
+                "Accueil client et conseils"
+            ],
+            "transferableSkills": {
+                "optique": [
+                    "Maîtrise des techniques optiques et relation client"
+                ],
+                "ferroviaire": [
+                    "Précision et rigueur dans le suivi des tâches"
+                ],
+                "polyvalent": [
+                    "Service client et organisation de tâches"
+                ],
+                "it": [
+                    "Rigueur et autonomie"
+                ]
+            },
+            "tags": ["optique","vente","atelier"]
+        },
+        {
+            "title": "Créatrice et Gérante – Hauck Opticien à Domicile",
+            "employer": "SASU Hauck Opticien à Domicile",
+            "startDate": "2021-06",
+            "endDate": "2022-12",
+            "duration": "1 an 6 mois",
+            "missions": [
+                "Création de la structure juridique et rédaction du business plan",
+                "Recherche de financements et gestion administrative",
+                "Planification des interventions à domicile",
+                "Suivi client et gestion commerciale",
+                "Gestion du stock et des commandes",
+                "Responsabilité complète de l'activité"
+            ],
+            "transferableSkills": {
+                "optique": [
+                    "Gestion complète d’activité d’optique",
+                    "Organisation des interventions et suivi client"
+                ],
+                "ferroviaire": [
+                    "Rigueur et planification de tâches complexes",
+                    "Respect strict des procédures et protocoles"
+                ],
+                "polyvalent": [
+                    "Organisation et gestion des stocks",
+                    "Polyvalence opérationnelle et autonomie"
+                ],
+                "it": [
+                    "Gestion de projet autonome",
+                    "Planification et suivi de tâches multiples",
+                    "Capacité d’apprentissage rapide"
+                ]
+            },
+            "tags": ["entrepreneuriat","organisation","service à domicile"]
+        },
+        {
+            "title": "Opticienne diplômée – CDI",
+            "employer": "Point de vente, Ingwiller",
+            "startDate": "2015-04",
+            "endDate": "2021-05",
+            "duration": "6 ans",
+            "missions": [
+                "Accueil et conseil client",
+                "Vente et accompagnement personnalisé",
+                "Gestion des stocks, inventaires et commandes",
+                "Saisie et rapprochements financiers, gestion des factures",
+                "Relances impayés et suivi administratif",
+                "Organisation des plannings"
+            ],
+            "transferableSkills": {
+                "optique": [
+                    "Accueil et conseil client",
+                    "Adaptation de solutions personnalisées",
+                    "Gestion complète du stock et des plannings"
+                ],
+                "ferroviaire": [
+                    "Rigueur et suivi précis de procédures",
+                    "Organisation de tâches multiples dans un environnement exigeant",
+                    "Responsabilité dans la manipulation d’équipements"
+                ],
+                "polyvalent": [
+                    "Organisation et suivi des stocks",
+                    "Contrôle des commandes",
+                    "Optimisation des approvisionnements"
+                ],
+                "it": [
+                    "Autonomie et gestion de projet",
+                    "Capacité à apprendre rapidement de nouveaux outils et procédures",
+                    "Rigueur et suivi des tâches"
+                ]
+            },
+            "tags": ["optique","gestion","vente","organisation"]
+        },
+        {
+            "title": "Créatrice d’entreprise – Projet indépendant",
+            "employer": "Projet personnel",
+            "startDate": "2014-01",
+            "endDate": "2015-01",
+            "duration": "1 an",
+            "missions": [
+                "Rédaction de business plan",
+                "Recherches de financements",
+                "Études de marché et planification"
+            ],
+            "transferableSkills": {
+                "optique": [
+                    "Gestion complète de projet",
+                    "Planification et suivi des actions"
+                ],
+                "ferroviaire": [
+                    "Respect des étapes et protocoles dans les projets",
+                    "Organisation et anticipation"
+                ],
+                "polyvalent": [
+                    "Planification et organisation",
+                    "Analyse et prise d’initiative"
+                ],
+                "it": [
+                    "Gestion de projet et planification",
+                    "Capacité d’apprentissage rapide"
+                ]
+            },
+            "tags": ["projet","business plan","initiative"]
+        },
+        {
+            "title": "Technicienne en cabinet d'ophtalmologie",
+            "employer": "Cabinet d'ophtalmologie",
+            "startDate": "2010-01",
+            "endDate": "2013-12",
+            "duration": "3 ans",
+            "missions": [
+                "Réalisation d'examens de vue et tests oculaires",
+                "Assistance au praticien et gestion du matériel",
+                "Respect strict des règles d'hygiène et de sécurité"
+            ],
+            "transferableSkills": {
+                "optique": [
+                    "Expertise technique en examens et mesures",
+                    "Gestion du matériel spécialisé"
+                ],
+                "ferroviaire": [
+                    "Rigueur et respect strict des protocoles",
+                    "Précision et concentration"
+                ],
+                "polyvalent": [
+                    "Minutie et organisation",
+                    "Gestion de tâches opérationnelles"
+                ],
+                "it": [
+                    "Précision et rigueur",
+                    "Capacité à suivre des procédures complexes"
+                ]
+            },
+            "tags": ["santé","technique","protocoles"]
+        },
+        {
+            "title": "Co-responsable – Point de vente",
+            "employer": "Commerce spécialisé",
+            "startDate": "2009-01",
+            "endDate": "2009-12",
+            "duration": "1 an",
+            "missions": [
+                "Encadrement d'équipe",
+                "Gestion des plannings",
+                "Suivi des approvisionnements et des stocks",
+                "Accueil et conseil clientèle"
+            ],
+            "transferableSkills": {
+                "optique": [
+                    "Gestion et organisation du point de vente",
+                    "Encadrement et formation du personnel"
+                ],
+                "ferroviaire": [
+                    "Coordination de tâches et supervision",
+                    "Responsabilité et suivi des procédures"
+                ],
+                "polyvalent": [
+                    "Organisation des stocks et approvisionnements",
+                    "Accueil et service client"
+                ],
+                "it": [
+                    "Gestion d’équipe et suivi de tâches",
+                    "Capacité à organiser et prioriser le travail"
+                ]
+            },
+            "tags": ["management","coordination","stocks"]
+        }
+    ]
+}

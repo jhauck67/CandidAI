@@ -1,70 +1,131 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <!-- §---------------------------------------
-    §                [HEAD]
-    §      Titre, Meta Datas et Styles
+  <!-- §-----------------------------------------
+    §                [HEAD]                      
+    §      Titre, Meta Datas et Styles           
     §------------------------------------------->
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="theme-color" content="#0d0d0d">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d0d0d" />
 
-        <!-- *-----------------------------------
-        *        PAGE META TAGS
-        *--------------------------------------->
-        
-        <!-- *--- Balise titre ----------------->
-        <title>CandidAI — Assistant de candidatures intelligent</title>
+    <!-- *---------------------------------------
+    *            PAGE META TAGS
+    *------------------------------------------->
 
-        <!-- *- Meta description --------------->
-        <meta name="description" content="CandidAI automatise la création de CV et lettres personnalisées, et suit vos candidatures pour gagner du temps dans vos recherches d’emploi.">
+    <!-- *------- Balise titre ----------------->
+    <title>CandidAI — Assistant de candidatures intelligent</title>
 
-        <!-- *------ Auteur -------------------->
-        <meta name="author" content="Jhauck67">
+    <!-- *----- Meta description --------------->
+    <meta
+      name="description"
+      content="CandidAI automatise la création de CV et lettres personnalisées, et suit vos candidatures pour gagner du temps dans vos recherches d’emploi."
+    />
 
-        <!-- *-----------------------------------
-        *          OPENGRAPH META TAGS
-        *--------------------------------------->
-        <meta property="og:url" content="https://jhauck67.github.io/CandidAI/index.html">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="CandidAI — Assistant de candidatures intelligent">
-        <meta property="og:description" content="CandidAI automatise la création de CV et lettres personnalisées, et suit vos candidatures pour gagner du temps dans vos recherches d’emploi.">
-        <meta property="og:image" content="https://jhauck67.github.io/CandidAI/assets/img/sketch/opengraph.png">
+    <!-- *---------- Auteur -------------------->
+    <meta name="author" content="Jhauck67" />
 
-        
-        <!-- *-----------------------------------
+    <!-- *---------------------------------------
+    *          OPENGRAPH META TAGS
+    *------------------------------------------->
+    <meta property="og:url" content="https://jhauck67.github.io/CandidAI/index.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CandidAI — Assistant de candidatures intelligent" />
+    <meta
+      property="og:description"
+      content="CandidAI automatise la création de CV et lettres personnalisées, et suit vos candidatures pour gagner du temps dans vos recherches d’emploi."
+    />
+    <meta
+      property="og:image"
+      content="https://jhauck67.github.io/CandidAI/assets/img/sketch/opengraph.png"
+    />
+
+    <!-- *-----------------------------------
         *        FAVICONS SYSTEM
         *--------------------------------------->
-        <link rel="shortcut icon" href="assets/img/icons/favicons/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="assets/img/icons/favicons/favicon.svg">
-<link rel="icon" sizes="32x32" href="assets/img/icons/favicons/favicon32x32.png">
-<link rel="icon" sizes="16x16" href="assets/img/icons/favicons/favicon16x16.png">
-<link rel="apple-touch-icon" href="assets/img/icons/favicons/apple-touch-icon.png">
+    <link rel="shortcut icon" href="assets/img/icons/favicons/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/icons/favicons/favicon.svg" />
+    <link rel="icon" sizes="32x32" href="assets/img/icons/favicons/favicon32x32.png" />
+    <link rel="icon" sizes="16x16" href="assets/img/icons/favicons/favicon16x16.png" />
+    <link rel="apple-touch-icon" href="assets/img/icons/favicons/apple-touch-icon.png" />
 
-
-        <!-- *-----------------------------------
+    <!-- *---------------------------------------
         *       FEUILLES DE STYLE
         *--------------------------------------->
-        <link rel="stylesheet" href="./assets/styles/settings/reset.css">
-        <link rel="stylesheet" href="./assets/styles/settings/variables.css">
-        <link rel="stylesheet" href="./assets/styles/settings/global.css">
-        <link rel="stylesheet" href="./assets/styles/style.css">
-
-        <!-- *-----------------------------------
-        *      PRELOAD DES IMAGES
-        *--------------------------------------->
-    </head>
-    <!-- §---------------------------------------
-    §                [BODY]
-    §             Début du site
+    <link rel="stylesheet" href="./assets/styles/settings/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/settings/variables.css" />
+    <link rel="stylesheet" href="./assets/styles/settings/global.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <!-- §-----------------------------------------
+    §                [BODY]                      
+    §             Début du site                  
     §------------------------------------------->
-    <body>
-        <h1>Le site arrive bientôt</h1>
+  <body>
+    <!-- *---------------------------------------
+    *                HEADER
+    *------------------------------------------->
+    <header>
+      <div class="header-container">
+        <div class="logo-container">
+          <img
+            src="./assets/img/icons/svgs/logo-horizontal-fond-noir.svg"
+            alt="Logo de CandidAI"
+            aria-label="Logo de CandidAI"
+            id="logo"
+            height="75"
+            width="auto"
+          />
+        </div>
+        <nav>
+          <ul>
+            <li class="link active" id="dashboard" data-link="dashboard">Dashboard</li>
+            <li class="link" id="candidate" data-link="candidate">Nouvelle Candidature</li>
+            <li class="link" id="profil" data-link="profil">Profil</li>
+          </ul>
+        </nav>
+        <div class="burger-menu">
+          <div class="rod" id="rod1"></div>
+          <div class="rod" id="rod2"></div>
+          <div class="rod" id="rod3"></div>
+        </div>
+      </div>
+    </header>
 
-        <!-- *-----------------------------------
+    <!-- *---------------------------------------
+    *                 MAIN
+    *------------------------------------------->
+    <main>
+      <div class="main-container" id="app">
+        <section class="active" id="dashboard">
+          <h2>Vous avez affiché la section dashboard</h2>
+        </section>
+        <section id="candidate">
+          <h2>Vous avez affiché la section candidate</h2>
+        </section>
+        <section id="profil">
+          <h2>Vous avez affiché la section profil</h2>
+        </section>
+      </div>
+    </main>
+
+    <!-- *---------------------------------------
+    *                FOOTER
+    *------------------------------------------->
+    <footer>
+      <div class="footer-container">
+        <p>CandidAI - 100% local et privé</p>
+        <p>
+          &copy;
+          <span class="currentYear">2025</span>
+          Tous droits réservés
+        </p>
+      </div>
+    </footer>
+
+    <!-- *---------------------------------------
         *           SCRIPT JS
         *--------------------------------------->
-        <script type="module" src="./assets/scripts/index.js"></script>
-    </body>
+    <script type="module" src="./assets/scripts/main.js"></script>
+  </body>
 </html>
-    
