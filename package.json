@@ -1,0 +1,20 @@
+{
+  "name": "candidai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "<div     style=\"     width: 100%;     aspect-ratio: 5 / 1;     background: hsl(24, 5%, 5%);     display: flex;     align-items: center;     padding: 1rem;     border: 3px solid hsl(24, 71%, 59%, 0.3);     gap: 2rem;     \" >     <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"512\" viewBox=\"0 0 512 512\" fill=\"none\" style=\"height: 100%; width: auto;\"> <path d=\"M356.456 14.582L221.975 254.379H490.937L356.456 14.582Z\" fill=\"#D9AB8C\"/> <path d=\"M153.924 512L19.443 272.203H288.405L153.924 512Z\" fill=\"#D9AB8C\"/> <path d=\"M215.494 510.38V332.152H503.899V510.38H215.494Z\" fill=\"#F3F2F2\"/> <rect x=\"32.4051\" y=\"32.4051\" width=\"194.43\" height=\"194.43\" rx=\"97.2152\" stroke=\"#007ACC\" stroke-width=\"64.8101\"/> </svg>     <div style=\"width: 100%; font-family: 'Urbanist', sans-serif\">     <h1 style=\"margin: 0; font-size: 2rem; text-align: center; font-family: 'Urbanist', sans-serif\">CandidAI — Assistant de candidatures intelligent</h1>     <h2 style=\"margin: 0.5rem 0 1rem; font-size: 1rem; text-align: center\">         CandidAI automatise la création de CV et lettres personnalisées, et suit vos candidatures pour gagner du temps dans vos recherches d’emploi.     </h2>     <div         style=\"         margin: 0;         text-align: center;         display: flex;         align-items: center;         justify-content: center;         gap: 0.5rem;         \"     >         <img         src=\"https://img.shields.io/badge/HTML-%23E34F26.svg?style=flat&logo=html5&logoColor=white\"         />         <img         src=\"https://img.shields.io/badge/CSS-%23663399.svg?style=flat&logo=css&logoColor=white\"         />         <img         src=\"https://img.shields.io/badge/Javascript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black\"         />         <img src=\"https://img.shields.io/badge/Statut-en%20cours-10B73C.svg\" />     </div>     </div> </div> <div align=\"center\">   <p>     <a href=\"https://jhauck67.github.io/CandidAI/index.html\">Voir la démo</a> •     <a href=\"#-présentation-rapide\">Présentation projet</a> •     <a href=\"#-ce-que-jai-appris\">Ce que j'ai appris</a> •     <a href=\"#-à-propos-de-lautrice\">À propos</a>   </p>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.27.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}

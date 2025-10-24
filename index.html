@@ -57,6 +57,7 @@
     <link rel="stylesheet" href="./assets/styles/settings/global.css" />
     <link rel="stylesheet" href="./assets/styles/style.css" />
     <link rel="stylesheet" href="./assets/styles/modules/profile.css" />
+    <link rel="stylesheet" href="./assets/styles/modules/candidate.css" />
   </head>
   <!-- §-----------------------------------------
     §                [BODY]                      
@@ -102,7 +103,19 @@
           <h2>Vous avez affiché la section dashboard</h2>
         </section>
         <section id="candidate">
-          <h2>Vous avez affiché la section candidate</h2>
+          <h2>Nouvelle candidature :</h2>
+          <p>Coller une annonce et générer un CV</p>
+          <div class="candidate-container">
+            <div class="annonce-container candidCont">
+              <label for="annonce">Coller votre annonce</label>
+              <textarea name="annonce" id="annonce"></textarea>
+              <button type="button" id="generateBtn">générer le CV</button>
+            </div>
+            <div class="response-container candidCont">
+              <label for="response">Voici votre réponse</label>
+              <textarea name="response" id="response"></textarea>
+            </div>
+          </div>
         </section>
         <section id="profil">
           <h2>Mon profil</h2>
