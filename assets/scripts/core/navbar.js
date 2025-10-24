@@ -8,8 +8,8 @@
 export const initNavbar = (navSelector, linkSelector, sectionSelector, burgerControls = null) => {
     // Variables 
     const navbar = document.querySelector(navSelector); 
-    const links = document.querySelector(linkSelector); 
-    const sections = document.querySelector(sectionSelector);
+    const links = document.querySelectorAll(linkSelector); 
+    const sections = document.querySelectorAll(sectionSelector);
 
     if (!navbar) return;
 

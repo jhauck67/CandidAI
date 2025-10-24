@@ -56,6 +56,7 @@
     <link rel="stylesheet" href="./assets/styles/settings/variables.css" />
     <link rel="stylesheet" href="./assets/styles/settings/global.css" />
     <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/modules/profile.css" />
   </head>
   <!-- §-----------------------------------------
     §                [BODY]                      
@@ -104,7 +105,83 @@
           <h2>Vous avez affiché la section candidate</h2>
         </section>
         <section id="profil">
-          <h2>Vous avez affiché la section profil</h2>
+          <h2>Mon profil</h2>
+          <div class="personalInfo-container divContainer">
+            <h3>Infomations personnelles</h3>
+            <div class="lastName-container inputs-container">
+              <label for="lastName">Nom :</label>
+              <input type="text" name="lastName" id="lastName" aria-label="lastName" />
+            </div>
+            <div class="firstName-container inputs-container">
+              <label for="firstName">Prénom :</label>
+              <input type="text" name="firstName" id="firstName" aria-label="firstName" />
+            </div>
+            <div class="address-container inputs-container">
+              <label for="address">Adresse :</label>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                aria-label="address"
+                autocomplete="address-line1"
+              />
+            </div>
+            <div class="phone-container inputs-container">
+              <label for="phone">Téléphone :</label>
+              <input type="tel" name="phone" id="phone" aria-label="phone" autocomplete="tel" />
+            </div>
+            <div class="email-container inputs-container">
+              <label for="email">Email :</label>
+              <input type="email" name="email" id="email" aria-label="email" autocomplete="email" />
+            </div>
+            <div class="linkedin-container inputs-container">
+              <label for="linkedin">Linkedin :</label>
+              <input type="url" name="linkedin" id="linkedin" aria-label="linkedin" />
+            </div>
+            <div class="portfolio-container inputs-container">
+              <label for="portfolio">Portfolio :</label>
+              <input type="url" name="portfolio" id="portfolio" aria-label="portfolio" />
+            </div>
+            <div class="dateOfBirth-container inputs-container">
+              <label for="dateOfBirth">Date de naissance :</label>
+              <input type="date" name="dateOfBirth" id="dateOfBirth" aria-label="dateOfBirth" />
+            </div>
+            <div class="drivingLicense-container inputs-container">
+              <label for="drivingLicense">Permis :</label>
+              <input
+                type="text"
+                name="drivingLicense"
+                id="drivingLicense"
+                aria-label="drivingLicense"
+              />
+            </div>
+          </div>
+          <div class="formations-container divContainer">
+            <h3>Mes formations :</h3>
+          </div>
+          <div class="skills-container divContainer">
+            <h3>Mes compétences ...</h3>
+          </div>
+          <div class="languages-container divContainer">
+            <h3>Mes compétences linguistiques :</h3>
+          </div>
+          <div class="preferences-container divContainer">
+            <h3>Mes préférences :</h3>
+            <ul>
+              <li class="mobility-container liContainer">
+                <label for="mobilityInput">Mobilité :</label>
+                <input type="text" name="mobilityInput" id="mobilityInput" />
+              </li>
+              <li class="availability-container liContainer">
+                <label for="availabilityInput">Disponibilité :</label>
+                <input type="text" name="availabilityInput" id="availabilityInput" />
+              </li>
+            </ul>
+          </div>
+          <div class="experiences-container divContainer">
+            <h3>Mes expériences professionnelles :</h3>
+            <ul class="experiences-generalUl"></ul>
+          </div>
         </section>
       </div>
     </main>

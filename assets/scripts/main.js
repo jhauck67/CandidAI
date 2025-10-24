@@ -5,9 +5,10 @@
 //*----------------------------------------------
 //*                  IMPORTS
 //*----------------------------------------------
-import { initBurgerMenu } from "./core/burger";
-import { initFooterYear } from "./core/footer";
-import { initNavbar } from "./core/navbar";
+import { initBurgerMenu } from "./core/burger.js";
+import { initFooterYear } from "./core/footer.js";
+import { initNavbar } from "./core/navbar.js";
+import { initProfile } from "./modules/profile.js";
 
 
 //*----------------------------------------------
@@ -16,3 +17,4 @@ import { initNavbar } from "./core/navbar";
 const burgerControls = initBurgerMenu('header', '.burger-menu');
 initNavbar('nav', '.link', 'main section', burgerControls);
 initFooterYear('.currentYear');
+initProfile();

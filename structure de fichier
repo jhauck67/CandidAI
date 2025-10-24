@@ -24,13 +24,23 @@ candidai/
 candidai/
 ├─ index.html               
 └─ /assets/
+   ├─ /data/
+   |  └─ profile.json   
    ├─ /fonts/
    ├─ /img/
    ├─ /scripts/
-   │  └─ index.css
+   |  ├─ /core/
+   |  |  ├─ burger.js
+   |  |  ├─ footer.js
+   |  |  └─ navbar.js
+   |  ├─ /modules/
+   |  |  └─ profile.js
+   |  └─ main.js
    └─ /styles/
       ├─ /settings/
-      │  ├─ reset.css
-      │  ├─ variables.css
-      │  └─ global.css
+      |  └─ profile.css
+      ├─ /settings/
+      |  ├─ reset.css
+      |  ├─ variables.css
+      |  └─ global.css
       └─ style.css

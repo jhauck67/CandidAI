@@ -1,0 +1,111 @@
+/** -------------------------------------------*/
+/**              SECTION PROFILE               */
+/** -------------------------------------------*/
+
+/** Paramètres généraux */
+#profil {
+  padding: var(--space-md);
+}
+.divContainer {
+  margin-bottom: var(--space-md);
+}
+
+/** Styles personalInfos */
+.inputs-container {
+  display: flex;
+  margin-bottom: var(--space-2xs);
+}
+.personalInfo-container label {
+  width: 150px;
+}
+.personalInfo-container input {
+  width: 400px;
+}
+
+/** Styles formations */
+.formation-container {
+  display: flex;
+  margin-bottom: var(--space-2xs);
+}
+.formationYear {
+  width: 50px;
+}
+.formationDegree {
+  width: 420px;
+}
+.formationInstitution {
+  width: 220px;
+}
+
+/** Styles skills */
+h5 {
+  margin-bottom: var(--space-2xs);
+  font-size: var(--fs-md);
+}
+.skillsUl {
+  margin: 0;
+  margin-bottom: var(--space-sm);
+}
+li.skill {
+  list-style: circle;
+  margin-left: var(--space-lg);
+}
+input.skill {
+  width: 450px;
+}
+
+/** Styles languages */
+.languageLi {
+  list-style: circle;
+}
+input.language {
+  width: 100px;
+}
+
+/** Styles preferences */
+.liContainer {
+  list-style: circle;
+}
+.mobilityInput,
+.availabilityInput {
+  width: 100px;
+}
+
+/** Styles experiences */
+.experience-container {
+  list-style: circle;
+}
+.titleH4 input {
+  text-transform: uppercase;
+  color: var(--color-text-primary-accent);
+}
+.title-input {
+  width: 450px;
+}
+.employer-input {
+  width: 300px;
+}
+.start-end-date {
+  display: flex;
+  gap: var(--space-md);
+}
+.startDate {
+  width: 75px;
+}
+.missionsUl {
+  margin: var(--space-sm) 0;
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
+  color: var(--color-text-secondary-accent);
+}
+.missionLi:first-child {
+  margin-top: var(--space-2xs);
+}
+.missionLi {
+  font-weight: var(--fw-regular);
+  list-style: square;
+  margin-left: var(--space-lg);
+}
+.missionInput {
+  width: 450px;
+}
