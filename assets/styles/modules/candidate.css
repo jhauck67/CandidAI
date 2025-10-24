@@ -1,0 +1,17 @@
+.candidate-container {
+  display: flex;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-lg);
+}
+.candidCont {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  width: 50%;
+}
+#annonce,
+#response {
+  height: 300px;
+  border: var(--border-thin) solid var(--color-border);
+  resize: none;
+}
