@@ -1,0 +1,136 @@
+{
+    "header": {
+        "type": "object",
+        "description": "Contient le nom complet et l'intitulé du poste ciblé par l'annonce.",
+        "properties": {
+            "firstName": {
+                "type": "string",
+                "description": "Le prénom de l'utilisateur. À reprendre tel quel du PROFIL UTILISATEUR."
+            },
+            "lastName": {
+                "type": "string",
+                "description": "Le nom de famille de l'utilisateur. À reprendre tel quel du PROFIL UTILISATEUR."
+            },
+            "work": {
+                "type": "string",
+                "description": "L'intitulé du poste ciblé pour le CV (ex: Opticien Vendeur-Conseil ou Apprenant Conducteur de Train). Ce titre doit correspondre à l'annonce fournie."
+            }
+        },
+        "required": ["firstName", "lastName", "work"]
+    },
+    "personalInfos": {
+        "type": "object",
+        "description": "Contient l'adresse, le numéro de téléphone et l'email",
+        "properties": {
+            "address": {
+                "type": "string",
+                "description": "L'adresse de l'utilisateur. À reprendre tel quel du PROFIL UTILISATEUR."
+            },
+            "phone": {
+                "type": "string",
+                "description": "Le numéro de téléphone de l'utilisateur. À reprendre tel quel du PROFIL UTILISATEUR."
+            },
+            "email": {
+                "type": "string",
+                "description": "L'email de l'utilisateur. À reprendre tel quel du PROFIL UTILISATEUR."
+            },
+            "drivingLicense": {
+                "type": "string",
+                "description": "Le permis de l'utilisateur. À reprendre tel quel du PROFIL UTILISATEUR."
+            },
+            "availability": {
+                "type": "string",
+                "description": "La disponibilité de l'utilisateur. À reprendre tel quel du PROFIL UTILISATEUR."
+            }
+        },
+        "required": ["address", "phone", "email"]
+    },
+    "skills": {
+        "type": "object",
+        "description": "Choisir les 5-6 compétences (techniques et transférables) les plus adaptées à ce qui est recherché dans l'annonce.",
+        "properties": {
+            "technical": {
+                "type": "array",
+                "description": "Maximum 3-4 compétences techniques, en priorité celles de l'annonce ou celles de l'utilisateur (HTML/CSS/JS, Conduite ferroviaire, Montage Optique).",
+                "items": { "type": "string" }
+            },
+            "soft": {
+                "type": "array",
+                "description": "Maximum 3-4 qualités comportementales (Rigueur, Autonomie, Gestion du stress) en lien avec l'annonce.",
+                "items": { "type": "string" }
+            }
+        },
+        "required": ["technical", "soft"]
+    },
+    "languages": {
+        "type": "array",
+        "description": "Liste des langues maîtrisées. À reprendre tel quel du PROFIL UTILISATEUR.",
+        "items": {
+            "type": "object",
+            "properties": {
+                "language": { "type": "string" },
+                "level": { "type": "string", "description": "Niveau de la langue (ex: Scolaire, A2, B1, Langue Maternelle)." }
+            },
+            "required": ["language", "level"]
+        }
+    },
+    "profileSummary":  {
+        "type": "string",
+        "description": "Accroche professionnelle de 4 à 5 lignes maximum. Elle doit impérativement : 1. Commencer par le titre professionnel le plus adapté à l'ANNONCE (ex: Opticienne diplômée ou Candidate pour un poste en alternance ferroviaire). 2. Mettre en avant les compétences transférables du PROFIL UTILISATEUR qui correspondent spécifiquement aux mots-clés de l'annonce. 3. Finir par l'objectif de carrière (le poste ciblé). NE JAMAIS inventer de fait ou d'expérience non mentionnés dans le PROFIL UTILISATEUR."
+    },
+    "experiences": {
+        "type": "array",
+        "description": "Liste des expériences professionnelles. Chaque expérience doit être un objet distinct.",
+        "items": {
+            "type": "object",
+            "description": "Représente une seule expérience professionnelle.",
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "description": "Intitulé du poste occupé. À reprendre tel quel du PROFIL UTILISATEUR."
+                },
+                "company": {
+                    "type": "string",
+                    "description": "Nom de l'entreprise où le poste a été occupé. À reprendre tel quel du PROFIL UTILISATEUR."
+                },
+                "duration": {
+                    "type": "string",
+                    "description": "Période de l'expérience (ex: Mai 2018 – Octobre 2024). NE JAMAIS inventer ou extrapoler. Doit utiliser les dates exactes du PROFIL UTILISATEUR. NE JAMAIS inclure d'erreur de date comme 'Avril 2025' sauf si c'est la date de fin officielle et factuelle."
+                },
+                "location": {
+                    "type": "string",
+                    "description": "Ville ou Région où le poste était situé (ex: Strasbourg, Grand Est)."
+                },
+                "highlights": { 
+                    "type": "array",
+                    "description": "Liste de 3 à 5 points mettant en avant les réussites et les compétences TRASNFERABLES qui ciblent l'ANNONCE. Utiliser des verbes d'action au début de chaque point.",
+                    "items": { "type": "string" }
+                }
+            },
+            "required": ["title", "company", "duration", "highlights"]
+        }
+    },
+    "education": {
+        "type": "array",
+        "description": "Liste des formations, diplômes et certifications. Chaque élément doit être un objet distinct.",
+        "items": {
+            "type": "object",
+            "description": "Représente une seule formation (diplôme, certification, etc.).",
+            "properties": {
+                "degree": {
+                    "type": "string",
+                    "description": "Intitulé complet du diplôme ou de la certification. À reprendre tel quel du PROFIL UTILISATEUR."
+                },
+                "institution": {
+                    "type": "string",
+                    "description": "Nom de l'établissement ou de l'organisme de formation. À reprendre tel quel du PROFIL UTILISATEUR."
+                },
+                "duration": {
+                    "type": "string",
+                    "description": "Période de la formation (ex: Septembre 2023 – Juin 2024, Obtention en 2018). À reprendre tel quel du PROFIL UTILISATEUR."
+                }
+            },
+            "required": ["degree", "institution", "duration"]
+        }
+    }
+}
