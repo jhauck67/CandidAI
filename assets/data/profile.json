@@ -8,7 +8,7 @@
         "linkedin": "https://www.linkedin.com/in/jennifer-hauck-b125252a2/",
         "portfolio": "https://jhauck67.github.io/jhauck67/",
         "dateOfBirth": "1987-07-24",
-        "drivingLicense": "B"
+        "drivingLicense": "Permis B"
     },
 
     "formations": [
@@ -91,8 +91,8 @@
     },
 
     "languages": [
-    { "language": "Anglais", "level": "scolaire" },
-    { "language": "Allemand", "level": "scolaire" }
+        { "language": "Allemand", "level": "scolaire" },
+        { "language": "Anglais", "level": "intermédiaire" }
     ],
 
     "preferences": {

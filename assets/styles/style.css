@@ -221,9 +221,7 @@ footer {
 /** -------------------------------------------*/
 /* On cache toutes les sections par défaut */
 main section {
-  visibility: hidden;
-  opacity: 0;
-  transform: translateY(10px);
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -233,9 +231,7 @@ main section {
 
 /* Section visible */
 main section.active {
-  visibility: visible;
-  opacity: 1;
-  transform: translateY(0);
+  display: block;
   position: relative;
   transition-delay: 0s;
 }

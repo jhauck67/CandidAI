@@ -1,17 +1,194 @@
-.candidate-container {
-  display: flex;
-  gap: var(--space-xl);
-  margin-bottom: var(--space-lg);
+section#candidate {
+  padding: var(--space-md);
+  width: calc(100% - 1rem);
 }
-.candidCont {
+#candidate .annonce-container,
+#candidate .charging-container,
+#candidate .response-container {
+  display: none;
+}
+
+/** Class : .askingAnnonce */
+#candidate.askingAnnonce .annonce-container {
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
-  width: 50%;
+  align-items: center;
 }
-#annonce,
-#response {
+#annonce {
+  width: 85%;
+  margin: 0 auto var(--space-md);
   height: 300px;
   border: var(--border-thin) solid var(--color-border);
+}
+#generateBtn {
+  width: 25%;
+}
+
+/** Class : .displayResponse */
+#candidate.displayResponse .response-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: var(--space-md);
+}
+.cv-section {
+  margin-bottom: var(--space-md);
+}
+.response-container h3 {
+  font-size: var(--fs-lg);
+}
+.response-container input,
+.response-container textarea {
+  width: 100%;
+}
+
+/* CV HEADER SECTION */
+#cvFirstNameInput,
+#cvLastNameInput {
+  font-family: var(--font-title);
+  font-size: var(--fs-3xl);
+}
+#cvFirstNameInput {
+  font-weight: var(--fw-bold);
+}
+#cvLastNameInput {
+  margin-top: -10px;
+  font-weight: var(--fw-semi-bold);
+}
+#cvWorkInput {
+  width: 100%;
+  font-family: var(--font-title);
+  font-weight: var(--fw-semibold);
+}
+
+/* CV PERSONAL INFOS */
+.cvH3 {
+  margin-bottom: var(--space-xs);
+}
+.cv-personal-infos-section input {
+  margin-bottom: var(--space-2xs);
+}
+.cvH4 {
+  margin: var(--space-sm) 0 var(--space-xs);
+  color: var(--color-text-primary-accent);
+}
+
+/* CV SKILLS */
+.cv-technical-skills-container textarea,
+.cv-soft-skills-container textarea {
   resize: none;
+}
+.level-display {
+  display: none;
+}
+
+/* CV LANGUAGES */
+.cv-languages-container {
+  padding: var(--space-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md); /* Espace vertical entre les langues */
+}
+.language-item {
+  /* Utiliser le grid pour positionner les éléments */
+  display: grid;
+  /* 2 colonnes pour les éléments en ligne (Nom + Niveau textuel) */
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: var(--space-sm);
+  /* Assure que la barre de progression se place en dessous */
+}
+.language-name {
+  font-weight: bold;
+  /* Placé en colonne 1 */
+}
+.language-level-text {
+  /* Placé en colonne 2 */
+  font-size: 0.8em;
+  text-transform: capitalize;
+}
+.language-bar-track {
+  /* Force cet élément à s'étendre sur les 2 colonnes */
+  grid-column: 1 / 3;
+  height: 6px;
+  background-color: var(--color-light-gray, #eee);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.language-bar-fill {
+  height: 100%;
+  /* La largeur est définie par le style injecté en JS (style="width: XX%;") */
+  background-color: var(--color-accent, #007bff);
+  transition: width 0.5s ease-out;
+}
+
+/* CV MAIN */
+.cv-main {
+  width: 100%;
+}
+.cv-main-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+.cv-section {
+  position: relative;
+}
+.cv-main-title::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: calc(100% - 45px);
+  background: var(--color-border);
+  left: 15px;
+  top: 45px;
+}
+.cvH3main {
+  margin: 0;
+}
+.cv-main-content {
+  padding-left: var(--space-2xl);
+}
+
+/* CV PROFIL */
+#cv-profil-textarea {
+  height: 150px;
+  resize: none;
+}
+
+/* CV EXPERIENCES */
+.expTitle,
+.legende {
+  display: flex;
+}
+.legende input {
+  width: 260px;
+  color: var(--color-text-secondary-accent);
+  font-size: var(--fs-sm);
+}
+.highlightsUl {
+  margin: 0;
+  margin-left: var(--space-md);
+}
+.highlightLi {
+  margin: 0;
+  height: 45px;
+}
+.highlightLi textarea {
+  resize: none;
+}
+
+/* CV FORMATIONS */
+.form-container {
+  margin-bottom: var(--space-md);
+}
+.form-descr {
+  display: flex;
+}
+.form-descr .form-duration-input,
+.form-descr .form-institution-input {
+  width: 220px;
+  font-style: italic;
+  color: var(--color-text-secondary-accent);
+  font-size: var(--fs-sm);
 }

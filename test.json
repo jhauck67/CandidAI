@@ -1,64 +1,100 @@
-{
-    "header":{
-        "firstName":"Jennifer",
-        "lastName":"Hauck",
-        "work":"Apprenant Conducteur de Train"
+ {
+  "education": [
+    {
+      "degree": "Licence Européenne de Conducteur de Train",
+      "institution": "SNCF / Université partenaire",
+      "duration": "2024 – 2025"
     },
-    "personalInfos":{
-        "address":"Val de Moder, 67350",
-        "phone":"07 50 27 06 10",
-        "email":"jenniferhauck2017@gmail.com",
-        "availability":"immédiate",
-        "drivingLicense":"B"
+    {
+      "degree": "Licence Professionnelle Métiers de l'Optique et de la Vision",
+      "institution": "Université de Strasbourg",
+      "duration": "Obtention en 2008"
     },
-    "profileSummary":"Apprenante Conductrice de Train avec une solide expérience en gestion et en service client, démontrant rigueur, autonomie et un sens aigu des responsabilités. Ayant déjà initié une formation ferroviaire, je suis capable de m'adapter rapidement à des environnements exigeants et de suivre des procédures complexes. Motivée par une carrière stable et indispensable, mon objectif est de devenir Conductrice de Train à la SNCF.",
-    "skills":{
-        "technical":[
-            "Respect des procédures de sécurité ferroviaire",
-            "Conduite de trains voyageurs (formation FI Autom UV1 à 6)",
-            "Lecture de signalisation"
-            ,"Gestion des stocks et des commandes"
-        ],
-        "soft":[
-            "Rigueur et précision",
-            "Autonomie et réactivité",
-            "Sens des responsabilités",
-            "Gestion du stress et des imprévus",
-            "Travail en équipe et coordination",
-            "Adaptabilité et polyvalence",
-            "Vigilance et concentration",
-            "Organisation et planification",
-            "Communication claire",
-            "Fiabilité",
-            "Sens du service client",
-            "Maîtrise de l’allemand (niveau A1-A2)",
-            "Compétences informatiques (Pack Office)",
-            "Résolution de problèmes",
-            "Apprentissage continu",
-            "Capacité d’apprentissage rapide",
-            "Gestion de projet autonome",
-            "Planification et suivi de tâches multiples",
-            "Coordination de tâches et supervision",
-            "Encadrement d'équipe",
-            "Gestion d’équipe",
-            "Suivi des approvisionnements",
-            "Optimisation des approvisionnements",
-            "Analyse et prise d’initiative",
-            "Minutie et organisation",
-            "Gestion de tâches opérationnelles",
-            "Expertise technique en examens et mesures",
-            "Gestion du matériel spécialisé",
-            "Rigueur et respect strict des protocoles",
-            "Précision et concentration",
-            "Accueil et conseil client",
-            "Vente et accompagnement personnalisé",
-            "Gestion des stocks, inventaires et commandes",
-            "Saisie et rapprochements financiers, gestion des factures",
-            "Relances impayés et suivi administratif",
-            "Organisation des plannings",
-            "Maîtrise des techniques optiques et relation client",
-            "Précision et rigueur dans le suivi des tâches",
-            "Service client et organisation de tâches",
-            "Rigueur et autonomie",
-            "Création de la structure juridique et rédaction du business plan",
-            "Recherche de financements et gestion administrative","Planification des interventions à domicile","Suivi client et gestion commerciale","Responsabilité complète de l'activité","Gestion complète d’activité d’optique","Organisation des interventions et suivi client","Rigueur et planification de tâches complexes","Respect strict des procédures et protocoles","Organisation et gestion des stocks","Polyvalence opérationnelle et autonomie","Gestion de projet autonome","Planification et suivi de tâches multiples","Capacité d’apprentissage rapide","Accueil et conseil client","Adaptation de solutions personnalisées","Gestion complète du stock et des plannings","Rigueur et suivi précis de procédures","Organisation de tâches multiples dans un environnement exigeant","Responsabilité dans la manipulation d’équipements","Organisation et suivi des stocks","Contrôle des commandes","Optimisation des approvisionnements","Autonomie et gestion de projet","Capacité à apprendre rapidement de nouveaux outils et procédures","Rigueur et suivi des tâches","Rédaction de business plan","Recherches de financements","Études de marché et planification","Gestion complète de projet","Planification et suivi des actions","Respect des étapes et protocoles dans les projets","Organisation et anticipation","Planification et organisation","Analyse et prise d’initiative","Gestion de projet et planification","Réalisation d'examens de vue et tests oculaires","Assistance au praticien et gestion du matériel","Respect strict des règles d'hygiène et de sécurité","Expertise technique en examens et mesures","Gestion du matériel spécialisé","Rigueur et respect strict des protocoles","Précision et concentration","Minutie et organisation","Gestion de tâches opérationnelles","Précision et rigueur","Capacité à suivre des procédures complexes","Encadrement d'équipe","Gestion des plannings","Suivi des approvisionnements et des stocks","Accueil et conseil clientèle","Gestion et organisation du point de vente","Encadrement et formation du personnel","Coordination de tâches et supervision","Responsabilité et suivi des procédures","Organisation des stocks et approvisionnements","Accueil et service client","Gestion d’équipe et suivi de tâches","Capacité à organiser et prioriser le travail","HTML / CSS / JavaScript","Utilisation de VS Code, GitHub et Figma","Principes de responsive design","Notions de SEO, accessibilité et optimisation web","Pack Office (Word, Excel, PowerPoint, Outlook)","Sens du service client","Rigueur et précision technique","Empathie et écoute","Gestion du temps et des priorités","Responsabilité et vigilance","Réactivité face aux imprévus","Gestion du stress et des horaires décalés","Travail en équipe et coordination","Autonomie et curiosité technique","Apprentissage continu","Résolution de problèmes","Capacité à documenter et structurer un projet","Gestion commerciale et administrative","Organisation d’agendas et de plannings","Suivi de dossiers clients et fournisseurs","Planification et priorisation des tâches","Esprit d’équipe","Adaptabilité et polyvalence","Communication claire","Fiabilité et sens des responsabilités","Rigueur et précision dans le travail","Suivi de procédures complexes","Application stricte des procédures de sécurité","Travail en environnement à forte responsabilité","Rigueur et concentration","Respect des consignes","Organisation et fiabilité","Travail en équipe","Capacité d’apprentissage rapide","Autonomie et rigueur","Gestion des tâches selon protocoles","Maîtrise des techniques optiques et relation client","Précision et rigueur dans le suivi des tâches","Service client et organisation de tâches","Rigueur et autonomie","Gestion complète d’activité d’optique","Organisation des interventions et suivi client","Rigueur et planification de tâches complexes","Respect strict des procédures et protocoles","Organisation et gestion des stocks","Polyvalence opérationnelle et autonomie","Gestion de projet autonome","Planification et suivi de tâches multiples","Capacité d’apprentissage rapide","Accueil et conseil client","Adaptation de solutions personnalisées","Gestion complète du stock et des plannings","Rigueur et suivi précis de procédures","Organisation de tâches multiples dans un environnement exigeant","Responsabilité dans la manipulation d’équipements","Organisation et suivi des stocks","Contrôle des commandes","Optimisation des approvisionnements","Autonomie et gestion de projet","Capacité à apprendre rapidement de nouveaux outils et procédures","Rigueur et suivi des tâches","Gestion complète de projet","Planification et suivi des actions","Respect des étapes et protocoles dans les projets","Organisation et anticipation","Planification et organisation","Analyse et prise d’initiative","Gestion de projet et planification","Expertise technique en examens et mesures","Gestion du matériel spécialisé","Rigueur et respect strict des protocoles","Précision et concentration","Minutie et organisation","Gestion de tâches opérationnelles","Précision et rigueur","Capacité à suivre des procédures complexes","Gestion et organisation du point de vente","Encadrement et formation du personnel","Coordination de tâches et supervision","Responsabilité et suivi des procédures","Organisation des stocks et approvisionnements","Accueil et service client","Gestion d’équipe et suivi de tâches","Capacité à organiser et prioriser le travail","Conduite de trains voyageurs (formation FI Autom UV1 à 6)","Respect strict des procédures de sécurité ferroviaire","Lecture et interprétation de signalisation","Utilisation d’équipements embarqués et de communication","Responsabilité et vigilance","Réactivité face aux imprévus","Gestion du stress et des horaires décalés","Travail en équipe et coordination","Organisation d’agendas et de plannings","Suivi de dossiers clients et fournisseurs","Planification et priorisation des tâches","Esprit d’équipe","Adaptabilité et polyvalence","Communication claire","Fiabilité et sens des responsabilités","Conduite de trains voyageurs (formation FI Autom UV1 à 6)","Respect strict des procédures de sécurité ferroviaire","Lecture et interprétation de signalisation","Utilisation d’équipements embarqués et de communication","Responsabilité et vigilance","Réactivité face aux imprévus","Gestion du stress et des horaires décalés","Travail en équipe et coordination","Gestion commerciale et administrative","Organisation d’agendas et de plannings","Suivi de dossiers clients et fournisseurs","Planification et priorisation des tâches","Esprit d’équipe","Adaptabilité et polyvalence","Communication claire","Fiabilité et sens des responsabilités","HTML / CSS / JavaScript","Utilisation de VS Code, GitHub et Figma","Principes de responsive design","Notions de SEO, accessibilité et optimisation web","Pack Office (Word, Excel, PowerPoint, Outlook)","Autonomie et curiosité technique","Apprentissage continu","Résolution de problèmes","Capacité à documenter et structurer un projet","Examens de vue et adaptations de verres correcteurs","Montage et réparation de lunettes","Utilisation de logiciels métiers optiques","Gestion des stocks et commandes fournisseurs","Conseil client et vente personnalisée","Sens du service client","Rigueur et précision technique","Empathie et écoute","Gestion du temps et des priorités","Rigueur","Autonomie","Réactivité","Sens des responsabilités","Gestion du stress","Travail en équipe","Gestion des imprévus","Sécurité","Organisation","Planification","Vigilance","Concentration","Adaptabilité","Polyvalence","Fiabilité","Communication claire","Précision","Apprentissage rapide","Initiative","Esprit d'équipe","Service client","Gestion de projet","Coordination","Supervision","Encadrement","Contrôle","Analyse","Maîtrise des procédures","Respect des protocoles","Maîtrise des outils informatiques","Gestion des ressources","Relation client","Entreprenariat","Gestion administrative","Gestion financière","Marketing","Vente","Inventaire","Approvisionnements","Suivi des factures","Relances impayés","Gestion des plannings","Formation","Développement de business plan","Étude de marché","Recherche de financements","Techniques optiques","Examen de vue","Tests oculaires","Assistance médicale","Hygiène","Gestion de matériel spécialisé","Management","Responsabilité","Capacité à apprendre rapidement de nouveaux outils et procédures","Suivi de dossiers clients et fournisseurs","Organisation d’agendas et de plannings","Planification et priorisation des tâches","HTML/CSS/JS","VS Code","GitHub","Figma","Responsive design","SEO","Accessibilité","Optimisation web","Word","Excel","PowerPoint","Outlook","Gestion commerciale et administrative","Organisation d’agendas et de plannings","Suivi de dossiers clients et fournisseurs","Planification et priorisation des tâches","Rigueur et précision dans le travail","Suivi de procédures complexes","Application stricte des procédures de sécurité","Travail en environnement à forte responsabilité","Rigueur et concentration","Respect des consignes","Organisation et fiabilité","Travail en équipe","Capacité d’apprentissage rapide","Autonomie et rigueur","Gestion des tâches selon protocoles","Maîtrise des techniques optiques et relation client","Précision et rigueur dans le suivi des tâches","Service client et organisation de tâches","Rigueur et autonomie","Gestion complète d’activité d’optique","Organisation des interventions et suivi client","Rigueur et planification de tâches complexes","Respect strict des procédures et protocoles","Organisation et gestion des stocks","Polyvalence opérationnelle et autonomie","Gestion de projet autonome","Planification et suivi de tâches multiples","Capacité d’apprentissage rapide","Accueil et conseil client","Adaptation de solutions personnalisées","Gestion complète du stock et des plannings","Rigueur et suivi précis de procédures","Organisation de tâches multiples dans un environnement exigeant","Responsabilité dans la manipulation d’équipements","Organisation et suivi des stocks","Contrôle des commandes","Optimisation des approvisionnements","Autonomie et gestion de projet","Capacité à apprendre rapidement de nouveaux outils et procédures","Rigueur et suivi des tâches","Gestion complète de projet","Planification et suivi des actions","Respect des étapes et protocoles dans les projets","Organisation et anticipation","Planification et organisation","Analyse et prise d’initiative","Gestion de projet et planification","Expertise technique en examens et mesures","Gestion du matériel spécialisé","Rigueur et respect strict des protocoles","Précision et concentration","Minutie et organisation","Gestion de tâches opérationnelles","Précision et rigueur","Capacité à suivre des procédures complexes","Gestion et organisation du point de vente","Encadrement et formation du personnel","Coordination de tâches et supervision","Responsabilité et suivi des procédures","Organisation des stocks et approvisionnements","Accueil et service client","Gestion d’équipe et suivi de tâches","Capacité à organiser et prioriser le travail","Conduite de trains voyageurs (formation FI Autom UV1 à 6)","Respect strict des procédures de sécurité ferroviaire","Lecture et interprétation de signalisation","Utilisation d’équipements embarqués et de communication","Organisation d’agendas et de plannings","Suivi de dossiers clients et fournisseurs","Planification et priorisation des tâches","Gestion commerciale et administrative","HTML / CSS / JavaScript","Utilisation de VS Code, GitHub et Figma","Principes de responsive design","Notions de SEO, accessibilité et optimisation web","Pack Office (Word, Excel, PowerPoint, Outlook)","Examens de vue et adaptations de verres correcteurs","Montage et réparation de lunettes","Utilisation de logiciels métiers optiques","Gestion des stocks et commandes fournisseurs","Conseil client et vente personnalisée","Conduite ferroviaire","Montage Optique","HTML/CSS/JS","Rigueur","Autonomie","Réactivité","Sens des responsabilités","Gestion du stress","Travail en équipe","Vigilance","Concentration","Adaptabilité","Polyvalence","Communication claire","Fiabilité","Apprentissage continu","Résolution de problèmes","Esprit d’équipe","Empathie et écoute","Gestion du temps et des priorités","Sens du service client","Gestion de projet","Planification","Organisation","Précision","Minutie","Capacité à suivre des procédures complexes","Expertise technique","Coordination","Supervision","Encadrement","Analyse","Prise d’initiative","Gestion commerciale","Gestion administrative","Gestion des stocks","Service client","Respect strict des protocoles","Fiabilité et sens des responsabilités","Autonomie et curiosité technique","Capacité à documenter et structurer un projet","Gestion du stress et des horaires décalés","Maîtrise des techniques optiques et relation client","Rigueur et précision dans le travail","Suivi de procédures complexes","Travail en environnement à forte responsabilité","Rigueur et concentration","Respect des consignes","Organisation et fiabilité","Gestion des tâches selon protocoles","Précision et rigueur dans le suivi des tâches","Rigueur et autonomie","Gestion complète d’activité d’optique","Organisation des interventions et suivi client","Rigueur et planification de tâches complexes","Respect strict des procédures et protocoles","Organisation et gestion des stocks","Polyvalence opérationnelle et autonomie","Gestion de projet autonome","Planification et suivi de tâches multiples","Accueil et conseil client","Adaptation de solutions personnalisées","Gestion complète du stock et des plannings","Rigueur et suivi précis de procédures","Organisation de tâches multiples dans un environnement exigeant","Responsabilité dans la manipulation d’équipements","Organisation et suivi des stocks","Contrôle des commandes","Optimisation des approvisionnements","Autonomie et gestion de projet","Capacité à apprendre rapidement de nouveaux outils et procédures","Rigueur et suivi des tâches","Gestion complète de projet","Planification et suivi des actions","Respect des étapes et protocoles dans les projets","Organisation et anticipation","Planification et organisation","Analyse et prise d’initiative","Gestion de projet et planification","Expertise technique en examens et mesures","Gestion du matériel spécialisé","Rigueur et respect strict des protocoles","Précision et concentration","Minutie et organisation","Gestion de tâches opérationnelles","Précision et rigueur","Gestion et organisation du point de vente","Encadrement et formation du personnel","Coordination de tâches et supervision","Responsabilité et suivi des procédures","Organisation des stocks et approvisionnements","Accueil et service client","Gestion d’équipe et suivi de tâches","Capacité à organiser et prioriser le travail","Gestion commerciale et administrative","Organisation d’agendas et de plannings","Suivi de dossiers clients et fournisseurs","Planification et priorisation des tâches","Conduite ferroviaire","Sécurité ferroviaire","Gestion des procédures","Lecture de signalisation","Utilisation d’équipements embarqués","Gestion du stress","Travail en équipe","Rigueur","Autonomie","Réactivité","Sens des responsabilités","Vigilance","Concentration","Adaptabilité","Gestion des imprévus","Organisation","Fiabilité","Précision","Communication claire","Apprentissage continu"]}}
+    {
+      "degree": "BTS Opticien-Lunetier en Alternance",
+      "institution": "IFA Strasbourg",
+      "duration": "Obtention en 2007"
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Apprenante Conductrice de Train",
+      "company": "SNCF Voyageurs",
+      "duration": "Mai 2024 – Avril 2025",
+      "highlights": [
+        "Appliquer rigoureusement les procédures de sécurité ferroviaire (UV1 à 6 sur 7), garantissant la fiabilité des opérations.",
+        "Développer une concentration élevée et un sens des responsabilités dans un environnement exigeant.",
+        "Collaborer efficacement en équipe et adhérer aux protocoles opérationnels stricts."
+      ],
+      "location": "Strasbourg, Grand Est"
+    },
+    {
+      "title": "Opticienne diplômée",
+      "company": "Différents points de vente",
+      "duration": "Juillet 2022 – Septembre 2023",
+      "highlights": [
+        "Gérer la relation client et les opérations de vente en respectant les standards de service.",
+        "Assurer le montage et l'adaptation de verres, démontrant précision et minutie technique.",
+        "Accueillir et conseiller la clientèle avec professionnalisme, garantissant une satisfaction élevée."
+      ],
+      "location": "Grand Est"
+    },
+    {
+      "title": "Créatrice et Gérante",
+      "company": "SASU Hauck Opticien à Domicile",
+      "duration": "Juin 2021 – Décembre 2022",
+      "highlights": [
+        "Mener la création et le développement d'une structure indépendante, de la conception à la gestion opérationnelle.",
+        "Gérer la planification des interventions, le suivi client et l'ensemble de la gestion commerciale et administrative.",
+        "Démontrer une autonomie complète et un sens aigu de l'organisation dans un contexte entrepreneurial."
+      ],
+      "location": "Grand Est"
+    },
+    {
+      "title": "Opticienne diplômée",
+      "company": "Point de vente, Ingwiller",
+      "duration": "Avril 2015 – Mai 2021",
+      "highlights": [
+        "Optimiser la gestion des stocks et des commandes pour assurer la disponibilité des produits.",
+        "Assurer la saisie et les rapprochements financiers, ainsi que le suivi administratif et les relances impayés.",
+        "Organiser les plannings et garantir un accueil client et un conseil personnalisé de qualité."
+      ],
+      "location": "Ingwiller, Grand Est"
+    }
+  ],
+  "header": {
+    "firstName": "Jennifer",
+    "lastName": "Hauck",
+    "work": "Apprenante Conductrice de Train"
+  },
+  "languages": [
+    {
+      "language": "Anglais",
+      "level": "scolaire"
+    },
+    {
+      "language": "Allemand",
+      "level": "scolaire"
+    }
+  ],
+  "personalInfos": {
+    "address": "Val de Moder, 67350",
+    "phone": "07 50 27 06 10",
+    "email": "jenniferhauck2017@gmail.com",
+    "availability": "immédiate",
+    "drivingLicense": "Permis B"
+  },
+  "profileSummary": "Candidate pour un poste en alternance ferroviaire, je suis dotée d'une forte rigueur et d'un sens aigu des responsabilités, essentiels pour la sécurité et la régularité des transports. Mon parcours démontre une capacité éprouvée à gérer des protocoles stricts, à réagir efficacement aux imprévus et à travailler avec concentration. Motivée par une carrière stable et indispensable, je vise à devenir une Conductrice de Train compétente au sein de la SNCF.",
+  "skills": {
+    "technical": [
+      "Respect strict des procédures de sécurité ferroviaire",
+      "Lecture et interprétation de signalisation",
+      "Utilisation d’équipements embarqués et de communication"
+    ],
+    "soft": [
+      "Rigueur et précision",
+      "Réactivité et gestion des imprévus",
+      "Sens des responsabilités et autonomie"
+    ]
+  }
+}
