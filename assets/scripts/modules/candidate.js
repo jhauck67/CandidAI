@@ -2,6 +2,9 @@
 //§                CANDIDATE                     
 //§==============================================
 
+// VARIABLES                                     
+const exportPdfBtn = document.getElementById('exportPdfBtn');
+
 //FUNCTIONS  ----- Utils Functions -----         
 //* ----- renderHeaderAndPersonalInfos ----------
 const renderHeaderAndPersonalInfos = (data) => {
@@ -288,3 +291,9 @@ export const initCandidate = () => {
         }
     });
 };
+
+// EVENT LISTENER                                
+exportPdfBtn.addEventListener('click', () => {
+    console.log("Le bouton fonctionne !");
+    
+});
