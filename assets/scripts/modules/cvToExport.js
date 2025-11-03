@@ -215,7 +215,7 @@ const renderLanguages = (languagesArray, container) => {
 //* ----------- renderExperiences ---------------
 const renderExperiences = (experiencesArray, container) => {
     experiencesArray.forEach(exp => {
-        const expContainer = createElement('div', 'exp-container', container);
+        const expContainer = createElement('div', 'exp-container no-break-inside', container);
             const expTitle = createElement('h4', 'expTitle', expContainer);
                 createElement('div', 'expTitle', expTitle, exp.title);
                 createElement('div', 'expCompany', expTitle, exp.company);
@@ -232,7 +232,7 @@ const renderExperiences = (experiencesArray, container) => {
 //* ----------- renderFormations ----------------
 const renderFormations = (formationsArray, container) => {
     formationsArray.forEach(form => {
-        const formContainer = createElement('div', 'form-container', container);
+        const formContainer = createElement('div', 'form-container no-break-inside', container);
             createElement('h4', 'form-title', formContainer, form.title);
             const formDesc = createElement('div', 'form-descr', formContainer);
                 createElement('div', 'form-duration', formDesc, form.duration);

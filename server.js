@@ -81,7 +81,7 @@ app.post("/generate-cv", async (req, res) => {
         2. NE JAMAIS inclure de prose, d'explication ou de texte supplémentaire. La réponse doit être **UNIQUEMENT** le JSON valide.
         3. Utilise uniquement les informations présentes dans le 'PROFIL UTILISATEUR'.
         4. NE JAMAIS inventer de poste, de date, ou d'expérience professionnelle qui ne figure pas dans le profil.
-        5. Pour chaque section, adapte et reformule les descriptions (experiences, education) pour mettre en évidence les COMPÉTENCES TRANSFÉRABLES qui correspondent spécifiquement aux besoins de l'annonce.
+        5. Pour chaque expérience professionnelle et éducation, la description associée NE DOIT PAS dépasser 3 points, et chaque point ne doit pas excéder 15 mots. Concentre-toi sur l'impact (ce que l'utilisateur a ACCOMPLI) plutôt que sur les tâches (ce que l'utilisateur a FAIT).
         6. Le bloc "skills.technical" doit contenir un **maximum de 3 compétences clés** pertinentes pour l'annonce.
         7. Le bloc "skills.soft" doit contenir un **maximum de 3 compétences comportementales** pertinentes pour l'annonce.
 

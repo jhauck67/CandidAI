@@ -160,6 +160,7 @@ section#candidate {
 }
 .cv-main-content {
   padding-left: var(--space-2xl);
+  margin-right: var(--space-md);
 }
 
 /* CV PROFIL */
@@ -170,7 +171,7 @@ section#candidate {
 
 /* CV EXPERIENCES */
 .exp-container {
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-xs);
 }
 .expTitle,
 .legende {
@@ -182,7 +183,7 @@ section#candidate {
   margin: var(--space-2xs) 0;
 }
 .legende {
-  margin: var(--space-2xs) 0 var(--space-xs);
+  margin: calc(-1 * var(--space-2xs)) 0 var(--space-xs);
 }
 .legende,
 .legende input {
@@ -199,6 +200,7 @@ section#candidate {
 }
 #cvContent .highlightLi {
   list-style: circle;
+  margin: 0;
 }
 .highlightLi textarea {
   resize: none;
@@ -206,7 +208,7 @@ section#candidate {
 
 /* CV FORMATIONS */
 .form-container {
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-xs);
 }
 .form-descr {
   display: flex;
@@ -229,4 +231,24 @@ section#candidate {
   color: var(--color-text-secondary-accent);
   font-size: var(--fs-sm);
   font-style: italic;
+}
+.no-break-inside {
+  /* Propriété CSS standard pour l'impression et les PDF */
+  page-break-inside: avoid;
+
+  /* Propriétés spécifiques aux moteurs WebKit (par sécurité) */
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/** font-size cvToExport */
+.cv-personalInfos,
+.skill-name,
+.language-name,
+.cv-main-content {
+  font-size: var(--fs-md);
+}
+.cv-work,
+.cvH3main {
+  font-size: var(--fs-lg);
 }

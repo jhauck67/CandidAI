@@ -295,7 +295,26 @@ export const initCandidate = () => {
 };
 
 // EVENT LISTENER                                
-exportPdfBtn.addEventListener('click', () => {
+exportPdfBtn.addEventListener('click', async () => {
     const finalCV = getFinalCVvalue();
-    const cvToExport = makeCvToExport(finalCV);
+    makeCvToExport(finalCV);
+
+    const cvToExport = document.getElementById('cvContent');
+
+    const options = {
+        margin: [10, 10, 10, 10], // Marge: top, left, bottom, right (en mm)
+        filename: 'Mon_CV.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 }, // Meilleure résolution
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    try {
+        await html2pdf()
+            .set(options) // Applique les options
+            .from(cvToExport) // Sélectionne l'élément à convertir
+            .save();       // Déclenche le téléchargement
+    } finally {
+        cvToExport.style.display = 'none';
+    }
 });

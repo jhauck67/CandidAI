@@ -258,37 +258,6 @@
             "tags": ["optique","gestion","vente","organisation"]
         },
         {
-            "title": "Créatrice d’entreprise – Projet indépendant",
-            "employer": "Projet personnel",
-            "startDate": "2014-01",
-            "endDate": "2015-01",
-            "duration": "1 an",
-            "missions": [
-                "Rédaction de business plan",
-                "Recherches de financements",
-                "Études de marché et planification"
-            ],
-            "transferableSkills": {
-                "optique": [
-                    "Gestion complète de projet",
-                    "Planification et suivi des actions"
-                ],
-                "ferroviaire": [
-                    "Respect des étapes et protocoles dans les projets",
-                    "Organisation et anticipation"
-                ],
-                "polyvalent": [
-                    "Planification et organisation",
-                    "Analyse et prise d’initiative"
-                ],
-                "it": [
-                    "Gestion de projet et planification",
-                    "Capacité d’apprentissage rapide"
-                ]
-            },
-            "tags": ["projet","business plan","initiative"]
-        },
-        {
             "title": "Technicienne en cabinet d'ophtalmologie",
             "employer": "Cabinet d'ophtalmologie",
             "startDate": "2010-01",
