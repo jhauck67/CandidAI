@@ -2,6 +2,8 @@
 //§                CANDIDATE                     
 //§==============================================
 
+import { makeCvToExport, getFinalCVvalue } from "./cvToExport.js";
+
 // VARIABLES                                     
 const exportPdfBtn = document.getElementById('exportPdfBtn');
 
@@ -294,6 +296,6 @@ export const initCandidate = () => {
 
 // EVENT LISTENER                                
 exportPdfBtn.addEventListener('click', () => {
-    console.log("Le bouton fonctionne !");
-    
+    const finalCV = getFinalCVvalue();
+    const cvToExport = makeCvToExport(finalCV);
 });

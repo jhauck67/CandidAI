@@ -113,19 +113,39 @@
             <div class="response-container">
               <div class="cv-sidebar">
                 <div class="cv-header-section cv-section">
-                  <input type="text" name="cvFirstNameInput" id="cvFirstNameInput" />
-                  <input type="text" name="cvLastNameInput" id="cvLastNameInput" />
-                  <input type="text" name="cvWorkInput" id="cvWorkInput" />
+                  <input
+                    type="text"
+                    name="cvFirstNameInput"
+                    id="cvFirstNameInput"
+                    class="cv-first-name"
+                  />
+                  <input
+                    type="text"
+                    name="cvLastNameInput"
+                    id="cvLastNameInput"
+                    class="cv-last-name"
+                  />
+                  <input type="text" name="cvWorkInput" id="cvWorkInput" class="cv-work" />
                 </div>
                 <div class="cv-personal-infos-section cv-section">
                   <h3 class="cvH3">Informations personnelles</h3>
-                  <input type="text" name="cvAddressInput" id="cvAddressInput" />
-                  <input type="text" name="cvPhoneInput" id="cvPhoneInput" />
-                  <input type="text" name="cvEmailInput" id="cvEmailInput" />
+                  <input type="text" name="cvAddressInput" id="cvAddressInput" class="cv-address" />
+                  <input type="text" name="cvPhoneInput" id="cvPhoneInput" class="cv-phone" />
+                  <input type="text" name="cvEmailInput" id="cvEmailInput" class="cv-email" />
                   <h4 class="cvH4">Permis de conduire :</h4>
-                  <input type="text" name="cvDrivingLicenseInput" id="cvDrivingLicenseInput" />
+                  <input
+                    type="text"
+                    name="cvDrivingLicenseInput"
+                    id="cvDrivingLicenseInput"
+                    class="cv-driving-license"
+                  />
                   <h4 class="cvH4">Disponibilité :</h4>
-                  <input type="text" name="cvAvailabilityInput" id="cvAvailabilityInput" />
+                  <input
+                    type="text"
+                    name="cvAvailabilityInput"
+                    id="cvAvailabilityInput"
+                    class="cv-availability"
+                  />
                 </div>
                 <div class="cv-skills-section cv-section">
                   <h3 class="cvH3">Compétences</h3>
@@ -183,6 +203,7 @@
               </div>
               <button id="exportPdfBtn">Exporter en PDF</button>
             </div>
+            <div id="cvContent"></div>
           </div>
         </section>
         <section id="profil">

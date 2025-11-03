@@ -25,7 +25,8 @@ section#candidate {
 }
 
 /** Class : .displayResponse */
-#candidate.displayResponse .response-container {
+#candidate.displayResponse .response-container,
+#cvContent {
   display: grid;
   grid-template-columns: 30% 70%;
   gap: var(--space-md);
@@ -42,19 +43,19 @@ section#candidate {
 }
 
 /* CV HEADER SECTION */
-#cvFirstNameInput,
-#cvLastNameInput {
+.cv-first-name,
+.cv-last-name {
   font-family: var(--font-title);
   font-size: var(--fs-3xl);
 }
-#cvFirstNameInput {
+.cv-first-name {
   font-weight: var(--fw-bold);
 }
-#cvLastNameInput {
+.cv-last-name {
   margin-top: -10px;
   font-weight: var(--fw-semi-bold);
 }
-#cvWorkInput {
+.cv-work {
   width: 100%;
   font-family: var(--font-title);
   font-weight: var(--fw-semibold);
@@ -64,7 +65,8 @@ section#candidate {
 .cvH3 {
   margin-bottom: var(--space-xs);
 }
-.cv-personal-infos-section input {
+.cv-personal-infos-section input,
+.cv-personalInfos {
   margin-bottom: var(--space-2xs);
 }
 .cvH4 {
@@ -83,7 +85,6 @@ section#candidate {
 
 /* CV LANGUAGES */
 .cv-languages-container {
-  padding: var(--space-sm);
   display: flex;
   flex-direction: column;
   gap: var(--space-md); /* Espace vertical entre les langues */
@@ -97,7 +98,14 @@ section#candidate {
   gap: var(--space-sm);
   /* Assure que la barre de progression se place en dessous */
 }
-.language-name {
+.skill-item {
+  margin: var(--space-sm) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.language-name,
+.skill-name {
   font-weight: bold;
   /* Placé en colonne 1 */
 }
@@ -106,19 +114,23 @@ section#candidate {
   font-size: 0.8em;
   text-transform: capitalize;
 }
-.language-bar-track {
+.language-bar-track,
+.skill-bar-track {
   /* Force cet élément à s'étendre sur les 2 colonnes */
   grid-column: 1 / 3;
   height: 6px;
-  background-color: var(--color-light-gray, #eee);
+  background-color: var(--color-bg-darker);
+  border: var(--border-thin) solid var(--color-border);
   border-radius: 3px;
-  overflow: hidden;
+  /* overflow: hidden; */
+  margin-bottom: var(--space-sm);
 }
 
-.language-bar-fill {
+.language-bar-fill,
+.skill-bar-fill {
   height: 100%;
   /* La largeur est définie par le style injecté en JS (style="width: XX%;") */
-  background-color: var(--color-accent, #007bff);
+  background-color: var(--color-bg-accent);
   transition: width 0.5s ease-out;
 }
 
@@ -157,12 +169,23 @@ section#candidate {
 }
 
 /* CV EXPERIENCES */
+.exp-container {
+  margin-bottom: var(--space-sm);
+}
 .expTitle,
 .legende {
   display: flex;
+  align-items: center;
+  gap: var(--space-xl);
+  text-transform: none;
+  color: var(--color-text-neutral);
+  margin: var(--space-2xs) 0;
 }
+.legende {
+  margin: var(--space-2xs) 0 var(--space-xs);
+}
+.legende,
 .legende input {
-  width: 260px;
   color: var(--color-text-secondary-accent);
   font-size: var(--fs-sm);
 }
@@ -170,9 +193,12 @@ section#candidate {
   margin: 0;
   margin-left: var(--space-md);
 }
-.highlightLi {
+.response-container .highlightLi {
   margin: 0;
   height: 45px;
+}
+#cvContent .highlightLi {
+  list-style: circle;
 }
 .highlightLi textarea {
   resize: none;
@@ -184,6 +210,7 @@ section#candidate {
 }
 .form-descr {
   display: flex;
+  gap: var(--space-xl);
 }
 .form-descr .form-duration-input,
 .form-descr .form-institution-input {
@@ -191,4 +218,15 @@ section#candidate {
   font-style: italic;
   color: var(--color-text-secondary-accent);
   font-size: var(--fs-sm);
+}
+.form-title {
+  color: var(--color-text-neutral);
+  margin-bottom: var(--space-2xs);
+  text-transform: none;
+}
+.form-duration,
+.form-institution {
+  color: var(--color-text-secondary-accent);
+  font-size: var(--fs-sm);
+  font-style: italic;
 }
